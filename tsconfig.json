@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      // "@api/*": ["../api/*"],
+      "@/e2e/*": ["./cypress/e2e/*"],
+      "@/support/*": ["./cypress/support/*"]
+    },
+    "target": "es2020",
+    "lib": ["es2020", "dom"],
+    "types": ["cypress", "node"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts", "e2e", "support"]
+}

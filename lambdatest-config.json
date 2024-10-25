@@ -1,0 +1,35 @@
+{
+   "lambdatest_auth": {
+     "username": "ryancruz0812",
+     "access_key": "KINlOSqvyJhBDZ9bwwsKy7L5Avkgy1OoaMeOOEO03ErNCcgKe0"
+   },
+   "browsers": [
+     {
+       "browser": "Chrome",
+       "platform": "Windows 10",
+       "versions": ["latest-1"]
+     }
+   ],
+   "run_settings": {
+     "cypress_config_file": "./cypress.env.json",
+     "build_name": "build-name",
+     "parallels": 2,
+     "specs": "./cypress/e2e/*.cy.ts",
+     "ignore_files": "",
+     "feature_file_suppport": false,
+     "network": false,
+     "headless": false,
+     "reporter_config_file": "",
+     "npm_dependencies": {
+       "cypress": "9.0.0"
+     },
+     "smart_ui": {
+       "project": "Notes",
+       "baseline": true
+     }
+   },
+   "tunnel_settings": {
+     "tunnel": true,
+     "tunnel_name": "rcruz-mbp-m3-max.local-2vru3mzhz0x"
+   }
+ }
